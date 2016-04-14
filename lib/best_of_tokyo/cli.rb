@@ -14,12 +14,17 @@ class CLI
   ]
 
   def run
+    waiting_for_data
     make_attractions
     add_attributes
     list_attractions
     menu
     random_fact
     sayonara
+  end
+
+  def waiting_for_data
+    puts "Hold tight - we're rounding up Tokyo's top attractions for you!"
   end
 
   def make_attractions
@@ -37,7 +42,7 @@ class CLI
   end
 
   def list_attractions
-    puts "Tokyo rocks! If you go, here are some of the city's top spots:"
+    puts "Tokyo rocks. If you go, here are some of the city's top spots:"
     puts ""
     @attractions.each.with_index(1) do |attraction, i| 
       puts "#{i}. #{attraction.name}".colorize(:blue) + " - #{attraction.rating << "/5.0"}"
@@ -69,7 +74,6 @@ class CLI
     puts "Random Japanese Fact:"
     puts FACTS.sample
   end
-
 
   def sayonara
     puts "Sayonara!"
