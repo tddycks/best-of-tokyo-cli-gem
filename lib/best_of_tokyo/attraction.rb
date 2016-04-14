@@ -12,8 +12,8 @@ class Attraction
 
 
   def self.create_from_array(array)
-    array.each do |attraction|
-      self.new(attraction)
+    array.each do |attraction_hash|
+      self.new(attraction_hash)
     end
   end
 
