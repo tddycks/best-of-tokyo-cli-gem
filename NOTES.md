@@ -1,4 +1,4 @@
-Steps to Create My First CLI Gem - Best of Tokyo
+Steps to Create My First CLI Gem - The Best of Tokyo
 
 1. Create Gem with Bundler 
 2. Make sure dependecies are working for newly created files
@@ -13,7 +13,6 @@ Steps to Create My First CLI Gem - Best of Tokyo
 
 Goal for finished product:
 
-Command Line
 Show a list of top rated attractions in Tokyo:
 
 1. Tsukiji Market - Rating: 5.0/5.0
