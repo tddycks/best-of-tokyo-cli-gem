@@ -11,7 +11,7 @@ Steps to Create My First CLI Gem - The Best of Tokyo
 9. Add cosmetic upgrades to data on Command Line (colors)
 
 
-Goal for finished product:
+Desired flow of gem:
 
 Show a list of top rated attractions in Tokyo:
 
